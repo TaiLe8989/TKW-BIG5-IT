@@ -457,5 +457,5 @@ function login() {
   localStorage.setItem("loggedInUser", JSON.stringify(user));
 
   // If login is successful, redirect to another page (e.g., welcome.html)
-  window.location.href = "home.html";
+  window.location.href = "index.html";
 }
