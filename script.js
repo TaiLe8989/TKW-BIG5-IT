@@ -284,21 +284,21 @@ $("#search_form").on("submit", function (event) {
     $("#myInput").first().val() === "Ha noi" ||
     $("#myInput").first().val() === "Hà Nội"
   ) {
-    window.location.href = "http://127.0.0.1:5500/hanoi.html";
+    window.location.href = "hanoi.html";
     return false;
   }
   if (
     $("#myInput").first().val() === "huế" ||
     $("#myInput").first().val() === "Huế"
   ) {
-    window.location.href = "http://127.0.0.1:5500/hue.html";
+    window.location.href = "hue.html";
     return false;
   }
   if (
     $("#myInput").first().val() === "lâm đồng" ||
     $("#myInput").first().val() === "Lâm Đồng"
   ) {
-    window.location.href = "http://127.0.0.1:5500/lamdong.html";
+    window.location.href = "lamdong.html";
     return false;
   }
   if (
@@ -306,49 +306,49 @@ $("#search_form").on("submit", function (event) {
     $("#myInput").first().val() === "thành phố Hồ Chí Minh" ||
     $("#myInput").first().val() === "Hồ Chí Minh"
   ) {
-    window.location.href = "http://127.0.0.1:5500/tphcm.html";
+    window.location.href = "tphcm.html";
     return false;
   }
   if (
     $("#myInput").first().val() === "Hải Dương" ||
     $("#myInput").first().val() === "hai duong"
   ) {
-    window.location.href = "http://127.0.0.1:5500/haiduong.html";
+    window.location.href = "haiduong.html";
     return false;
   }
   if (
     $("#myInput").first().val() === "ha long" ||
     $("#myInput").first().val() === "Hạ Long"
   ) {
-    window.location.href = "http://127.0.0.1:5500/halong.html";
+    window.location.href = "halong.html";
     return false;
   }
   if (
     $("#myInput").first().val() === "ha tinh" ||
     $("#myInput").first().val() === "Hà Tĩnh"
   ) {
-    window.location.href = "http://127.0.0.1:5500/hatinh.html";
+    window.location.href = "hatinh.html";
     return false;
   }
   if (
     $("#myInput").first().val() === "đà nẵng" ||
     $("#myInput").first().val() === "Đà Nẵng"
   ) {
-    window.location.href = "http://127.0.0.1:5500/danang.html";
+    window.location.href = "danang.html";
     return false;
   }
   if (
     $("#myInput").first().val() === "thanh hoa" ||
     $("#myInput").first().val() === "Thanh Hóa"
   ) {
-    window.location.href = "http://127.0.0.1:5500/thanhhoa.html";
+    window.location.href = "thanhhoa.html";
     return false;
   }
   if (
     $("#myInput").first().val() === "thai nguyên" ||
     $("#myInput").first().val() === "Thái Nguyên"
   ) {
-    window.location.href = "http://127.0.0.1:5500/thainguyen.html";
+    window.location.href = "thainguyen.html";
     return false;
   }
 });
